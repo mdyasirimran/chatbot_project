@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>My AI Assistant</h1>
+        <button id="theme-toggle">Dark Mode</button> <div class="chat-log" id="chat-log">
+            </div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+            <select id="model-select">
+                <option value="ollama_chat">Ollama (Local)</option>
+                <option value="gemini_chat">Gemini (Cloud)</option>
+                <option value="chat">Transformer (Local)</option>
+            </select>
+        </div>
+        <div class="info-text">
+            <p>Choose your AI model from the dropdown above.</p>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+

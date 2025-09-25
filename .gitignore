@@ -1,0 +1,61 @@
+# ------------------------
+# Python cache
+# ------------------------
+__pycache__/
+*.py[cod]
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ------------------------
+# Model & training artifacts
+# ------------------------
+transformer_model/
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# ------------------------
+# Databases & logs
+# ------------------------
+*.db
+*.sqlite3
+*.log
+
+# ------------------------
+# NLTK / other downloaded corpora
+# ------------------------
+nltk_data/
+
+# ------------------------
+# Chat history / generated files
+# ------------------------
+chat_history/
+*.json
+*.txt
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# OS / IDE files
+# ------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------
+# Miscellaneous
+# ------------------------
+*.tmp
+*.swp
