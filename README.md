@@ -1,6 +1,6 @@
 # 🤖 AI-Powered Chatbot Project  
 
-![Chatbot Banner](assets/chatbot-screenshot.png)  
+![Chatbot Banner](assets/chatbot-screenshot.png.png)  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python" />
@@ -71,7 +71,7 @@ This project showcases my **skills in Data Science, Machine Learning, and Softwa
 ## 📸 Screenshot  
 
 <p align="center">
-  <img src="assets/chatbot-screenshot.png" width="600px" alt="Chatbot Screenshot"/>
+  <img src="assets/chatbot-screenshot.png.png" width="600px" alt="Chatbot Screenshot"/>
 </p>  
 
 ---
